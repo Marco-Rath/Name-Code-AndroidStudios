@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATOS USUARIO"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="30dp"
+        />
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:hint=" Ingrese su nombre"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/txt_codigo"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:hint=" Ingrese su codigo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:background="#8b875b"
+        android:text="Ingresar"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#00aae4"
+        android:layout_marginBottom="15dp"
+        android:onClick="evento"
+        />
+    <TextView
+        android:id="@+id/etibienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/etiNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#744e3b"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/etiCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#744e3b"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
